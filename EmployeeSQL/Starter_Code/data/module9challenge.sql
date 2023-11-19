@@ -4,7 +4,7 @@
 --DROP TABLE employees;
 --DROP TABLE salaries;
 --DROP TABLE titles;
-/*
+
 CREATE TABLE titles (
     title_id VARCHAR   NOT NULL,
     title VARCHAR   NOT NULL,
@@ -123,4 +123,4 @@ SELECT last_name, COUNT(last_name)
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
-*/
+
